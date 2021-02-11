@@ -3,17 +3,74 @@
 
 <head>
     <title>Автобіографія Дацюка Олександра Миколайовича</title>
+    <style type="text/css">
+        :root {
+            --font-size: 16px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: calc(calc(var(--font-size)*2) + 22px);
+        }
+
+        #back_link {
+            font-family: cursive;
+        }
+
+        #content {
+            text-align: center;
+        }
+
+        .link_button {
+            display: inline-block;
+            width: 150px;
+            height: 25px;
+            background-color: royalblue;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        a.link_button:hover {
+            background-color: magenta;
+            color: black;
+            font-family: monospace;
+        }
+
+        a.link_button:focus {
+            background-color: yellow;
+            color: red;
+            font-family: cursive;
+        }
+
+        article {
+            font-size: calc(var(--font-size)*1.2);
+        }
+
+        article h2 {
+            font-size: calc(var(--font-size)*1.4);
+        }
+
+        article a#link-content {
+            font-weight: 700;
+        }
+
+        #link-top {
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 
 <body>
     <h1 id="top">Автобіографія Дацюка Олександра Миколайовича</h1>
-    <a href="index.html">Назад на головну</a>
+    <a id="back_link" href="index.html">Назад на головну</a>
     <h3 id="content">Зміст</h3>
-    <a href="#basic">Базова інформація</a>
-    <a href="#child">Дитинство</a>
-    <a href="#school">Шкільні роки</a>
-    <a href="#out-school">Поза школою</a>
-    <a href="#univer">Університет</a>
+    <a class="link_button" href="#basic">Базова інформація</a>
+    <a class="link_button" href="#child">Дитинство</a>
+    <a class="link_button" href="#school">Шкільні роки</a>
+    <a class="link_button" href="#out-school">Поза школою</a>
+    <a class="link_button" href="#univer">Університет</a>
     <article id="basic">
         <h2>Базова інформація</h2>
         Я, Дацюк Олександр Миколайович, народився одинадцятого квітня дві тисячі першого року в місті Івано-Франківськ
@@ -30,7 +87,7 @@
         мови та інші корисні відомості. А діти, які вперше прийшли до школи, ще відчувають себе дітьми. Вони
         приносять іграшки, ляльки та машини із собою на заняття, і не усвідомлюють що це вже, хай і
         маленька – щабель до початку дорослого життя.<br>
-        <a href="#content">Зміст</a>
+        <a id="link-content" href="#content">Зміст</a>
     </article>
     <article id="school">
         <h2>Шкільні роки</h2>
@@ -44,7 +101,7 @@
         дорослий світ — дуже непростий світ. У кожного з нас є свої проблеми, які нам здаються дуже важливими. Ми
         вважаємо, що нас навантажують, не розуміють, змушують вчитися, не дозволяють довго гуляти. Тому і мріємо швидше
         стати самостійними. Але ми не замислюємося про те, що в дорослому житті набагато важче.<br>
-        <a href="#content">Зміст</a>
+        <a id="link-content" href="#content">Зміст</a>
     </article>
     <article id="out-school">
         <h2>Поза школою</h2>
@@ -57,7 +114,7 @@
         види спорту. Вільний час допомагає їм залишатися здоровими та стрункими. Деякі люди також займаються
         екстремальними видами спорту. Вони отримують задоволення, коли розуміють, що існує великий ризик для їхнього
         життя. Завдяки адреналіну вони відчувають себе щасливими. Такі люди вважають за краще дайвінг, рафтинг тощо.<br>
-        <a href="#content">Зміст</a>
+        <a id="link-content" href="#content">Зміст</a>
     </article>
     <article id="univer">
         <h2>Університет</h2>
@@ -75,10 +132,10 @@
         прес-центр та радіо, що інформує студентів стосовно навчального процесу та різних конкурсів, заходів тощо.
         Цікавими є спортивно-гумористичні змагання між факультетами, що сприяють кращому зануренню у студентське життя
         та допомагають проявити творчі таланти, а ще знайти нових друзів.<br>
-        <a href="#content">Зміст</a>
+        <a id="link-content" href="#content">Зміст</a>
     </article>
     <hr>
-    <a href="#top">Уверх</a>
+    <a id="link-top" href="#top">Уверх</a>
 </body>
 
 </html>
