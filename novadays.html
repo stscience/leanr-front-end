@@ -3,13 +3,63 @@
 
 <head>
     <title>Сьогодення Дацюка Олександра Миколайовича</title>
+    <style>
+         :root {
+            --text-size: 16px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: calc(calc(var(--text-size)*2) + 22px);
+        }
+        
+        #back_link {
+            font-family: cursive;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        ul.ul-main>li:nth-child(even) {
+            color: black;
+            background-color: white;
+        }
+        
+        ul.ul-main>li:nth-child(odd) {
+            color: white;
+            background-color: gray;
+        }
+        
+        ul.ul-main>li::marker {
+            color: black;
+        }
+        
+        ol.ol-child>li::marker {
+            color: black;
+        }
+        
+        ol.ol-child li:nth-child(4) {
+            color: white;
+            background-color: gray;
+            list-style-type: decimal;
+        }
+        
+        ol.ol-child li:nth-child(3) {
+            cursor: pointer;
+        }
+        
+        ol.ol-child li:nth-child(5) {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Сьогодення Дацюка Олександра Миколайовича</h1>
-    <a href="index.html">Назад на головну</a>
+    <a id="back_link" href="index.html">Назад на головну</a>
     <h2>Мій типовий список покупок</h2>
-    <ul>
+    <ul class="ul-main">
         <li>Хліб</li>
         <li>Лаваш</li>
         <li>
@@ -44,7 +94,7 @@
     <h2>Мій улюблений десерт</h2>
     <ol>
         <li> Підготовити інгрідієнти для желе
-            <ol>
+            <ol class="ol-child">
                 <li>15 г розчинного желатину</li>
                 <li>100 мл холодної води</li>
                 <li>2 склянки молока</li>
@@ -53,14 +103,14 @@
             </ol>
         </li>
         <li> Підготовити інгрідієнти для кавового прошарку
-            <ol>
+            <ol class="ol-child">
                 <li>15 г розчинного желатину</li>
                 <li>100 мл кип’яченої води</li>
                 <li>2 склянки кави середньої міцності з цукром на смак</li>
             </ol>
         </li>
         <li> Приготувати десерт
-            <ol>
+            <ol class="ol-child">
                 <li>Готуємо білий прошарок. Желатин замочуємо у воді на півгодини, заздалегідь розмішавши</li>
                 <li>Нагріваємо молоко, з’єднуємо з водою з желатином, цукром</li>
                 <li>Не доводячи до кипіння, змішуємо до однорідності, залишаємо трохи охолонути.</li>
