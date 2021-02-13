@@ -4,14 +4,66 @@
 <head>
     <title>Друзі Дацюка Олександра Миколайовича</title>
 </head>
+<style type="text/css">
+     :root {
+        --text-size: 16px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: calc(calc(var(--text-size)*2) + 22px);
+    }
+    
+    #back-link {
+        font-family: cursive;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    table,
+    tr,
+    th,
+    td {
+        border: solid 2px black;
+        border-collapse: collapse;
+        padding: 3px;
+    }
+    
+    #table-head {
+        text-align: center;
+        background-color: green;
+        color: red;
+        font-weight: 700;
+    }
+    
+    table tr {
+        text-align: center;
+    }
+    
+    table tr:not(:first-child):nth-child(odd) {
+        color: white;
+        background-color: gray;
+    }
+    
+    table tr:not(:first-child):nth-child(even) {
+        color: black;
+        background-color: white;
+    }
+    
+    table tr>td:nth-last-child(-n+1) {
+        text-align: end;
+    }
+</style>
 
 <body>
     <h1>Друзі Дацюка Олександра Миколайовича</h1>
-    <a href="index.html">Назад на головну</a>
+    <a id="back-link" href="index.html">Назад на головну</a>
     <h2>Мої друзі</h2>
-    <table border="1px" style="text-align: center;">
+    <table>
         <caption>Друзі</caption>
-        <tr>
+        <tr id="table-head">
             <th>Прізвище</th>
             <th>Ім'я</th>
             <th>Дата народження</th>
