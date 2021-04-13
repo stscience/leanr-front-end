@@ -1,0 +1,117 @@
+:root {
+    --font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: calc(calc(var(--font-size) * 2) + 22px);
+}
+
+#back_link {
+    font-family: cursive;
+}
+
+#content {
+    text-align: center;
+}
+
+.link_button {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    background-color: royalblue;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+a.link_button {
+    line-height: 1.5;
+    flex: 200px;
+    margin: 5px;
+}
+
+
+a.link_button:hover {
+    background-color: magenta;
+    color: black;
+    font-family: monospace;
+}
+
+a.link_button:focus {
+    background-color: yellow;
+    color: red;
+    font-family: cursive;
+}
+
+article {
+    font-size: calc(var(--font-size) * 1.2);
+}
+
+article h2 {
+    font-size: calc(var(--font-size) * 1.4);
+    text-align: center;
+}
+
+.link-content {
+    font-weight: 700;
+    font-size: calc(var(--font-size) * 1.4);
+}
+
+#link-top {
+    text-transform: uppercase;
+}
+
+#nav {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+article {
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.body-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-block {
+    flex: 310px;
+    margin: 5px;
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    h3 {
+        color: green;
+    }
+
+    .body-block {
+        flex: 350px;
+    }
+
+    a.link_button {
+        flex: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        color: fuchsia;
+    }
+
+    .body-block {
+        flex: 100%;
+    }
+
+    a.link_button {
+        flex: 500px;
+        margin-top: 5px;
+    }
+}
