@@ -19,7 +19,14 @@ class TaskTriangle {
     }
 
     calculate(value1, value2) {
-    }
+		let result = {};
+		result.a = 0;
+        result.b = 0;
+        result.c = 0;
+        result.alpha =0;
+        result.beta = 0;	
+        return result;
+	}
 
     /*
     * Method validates types of tasks;
@@ -31,6 +38,7 @@ class TaskTriangle {
     * calculate method.
     * */
     validateTask(type1, type2) {
+		return -1;
     }
 }
 
