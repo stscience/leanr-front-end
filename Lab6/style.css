@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FF7400;
+}
+
+.boot-justify {
+    text-align: justify;
+}
+
+.caption-color {
+    background: #B5EAB5;
+}
+
+.caption-color1 {
+    background: #B5EB51;
+}
+
+.caption-color2 {
+    background: #5EAB52;
+}

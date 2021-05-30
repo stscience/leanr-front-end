@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lab 9</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            background: none;
+            background-color: gold;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        #goods-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: auto;
+        }
+
+        #category, #exact_category {
+            display: none;
+        }
+
+        #category-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+
+        .cate {
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin-top: 15px;
+        }
+
+        .cate p {
+            padding-left: 10px;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: gold;
+        }
+
+        .good {
+            width: 400px;
+            height: 400px;
+            border: 1px solid red;
+            margin-top: 15px;
+        }
+
+        .good p {
+            padding-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="text-align: center">Demo version of TV catalog</h1>
+    <button id="home_page">Home</button>
+    <button id="category_page">Categories</button>
+</header>
+
+<div id="category">
+    <h1>Categories</h1>
+    <div id="category-list"></div>
+    <a color="gold" onclick="loadGoods()" style="font-size: 30px">SPECIALS</a>
+</div>
+<div id="exact_category">
+    <h1>Goods</h1>
+    <div id="goods-list"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

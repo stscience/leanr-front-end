@@ -1,0 +1,34 @@
+[
+  {
+    "id": "43UN81006LB",
+    "name": "Телевізор LG 43UN81006LB",
+    "shortname": "LG 43UN81006LB",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "13699",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "49UN71006LB",
+    "name": "Телевізор LG 49UN71006LB",
+    "shortname": "LG 49UN71006LB",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "144999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "43LM6300PLA",
+    "name": "Телевізор LG 43LM6300PLA",
+    "shortname": "LG 43LM6300PLA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "10999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "49NANO806NA",
+    "name": "Телевізор LG 49NANO806NA",
+    "shortname": "LG 49NANO806NA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "20499",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  }
+]

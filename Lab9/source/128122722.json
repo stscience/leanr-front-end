@@ -1,0 +1,34 @@
+[
+  {
+    "id": "UE43TU8500UXUA",
+    "name": "Телевізор SAMSUNG UE43TU8500UXUA",
+    "shortname": "SAMSUNG UE43TU8500UXUA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "15799",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "UE50TU8000UXUA",
+    "name": "Телевізор SAMSUNG UE50TU8000UXUA",
+    "shortname": "SAMSUNG UE50TU8000UXUA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "17499",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "QE55Q77TAUXUA",
+    "name": "Телевізор SAMSUNG QE55Q77TAUXUA",
+    "shortname": "SAMSUNG QE55Q77TAUXUA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "30399",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "UE55TU8500UXUA",
+    "name": "Телевізор SAMSUNG UE55TU8500UXUA",
+    "shortname": "SAMSUNG UE55TU8500UXUA",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "20999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  }
+]

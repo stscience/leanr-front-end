@@ -1,0 +1,34 @@
+[
+  {
+    "id": "KD49XH8096BR",
+    "name": "Телевізор SONY KD49XH8096BR",
+    "shortname": "SONY KD49XH8096BR",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "21999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "KD43XH8096BR",
+    "name": "Телевізор SONY KD43XH8096BR",
+    "shortname": "SONY KD43XH8096BR",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "18499",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "KD55XH8096BR",
+    "name": "Телевізор SONY KD55XH8096BR",
+    "shortname": "SONY KD55XH8096BR",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "25999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  },
+  {
+    "id": "KD49XH8596BR",
+    "name": "Телевізор SONY KD49XH8596BR",
+    "shortname": "SONY KD49XH8596BR",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": "29999",
+    "url": "https://dummyimage.com/150x150/ffec1c/0011ff.png&text=product+image"
+  }
+]

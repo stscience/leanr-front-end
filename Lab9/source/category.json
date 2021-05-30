@@ -1,0 +1,20 @@
+[
+  {
+    "id": "128122722",
+    "name": "SAMSUNG",
+    "shortname": "2722SAM",
+    "notes": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": "128122830",
+    "name": "LG",
+    "shortname": "2830LG",
+    "notes": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": "128122909",
+    "name": "SONY",
+    "shortname": "2909SON",
+    "notes": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+  }
+]
